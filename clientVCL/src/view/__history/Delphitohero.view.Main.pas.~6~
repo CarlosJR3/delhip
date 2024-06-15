@@ -1,0 +1,39 @@
+unit Delphitohero.view.Main;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls;
+
+type
+  TFormPrincipal = class(TForm)
+    pnlmain: TPanel;
+    Pnlmenu: TPanel;
+    Pnlfull: TPanel;
+    Pnltop: TPanel;
+    Pnlprincipal: TPanel;
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormPrincipal: TFormPrincipal;
+
+implementation
+
+uses
+  delphitohero.view.styles.colors;
+
+{$R *.dfm}
+
+procedure TFormPrincipal.FormCreate(Sender: TObject);
+begin
+      pnlprincipal.Color := COLOR_BACKGROUND
+      pnltop.Color := COLOR_BACKGROUND_TOP;
+end;
+
+end.

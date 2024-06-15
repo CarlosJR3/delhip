@@ -1,0 +1,26 @@
+unit delphitohero.view.pages.principal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  Tpageprincipal = class(TForm)
+    Panel1: TPanel;
+    P: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  pageprincipal: Tpageprincipal;
+
+implementation
+
+{$R *.dfm}
+
+end.
