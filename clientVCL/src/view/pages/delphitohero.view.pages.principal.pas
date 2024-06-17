@@ -3,7 +3,6 @@ unit delphitohero.view.pages.principal;
 interface
 
 uses
-  Winapi.Windows,
   Winapi.Messages,
   System.SysUtils,
   System.Variants,
@@ -20,6 +19,7 @@ type
   Tpageprincipal = class(TForm,iRouter4DComponent)
     Panel1: TPanel;
     P: TLabel;
+    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -34,13 +34,23 @@ var
 
 implementation
 
+uses
+
+  delphitohero.view.styles.colors;
+
 {$R *.dfm}
 
 { Tpageprincipal }
 
+procedure Tpageprincipal.FormCreate(Sender: TObject);
+begin
+            Panel1.Color := COLOR_BACKGROUND;
+end;
+
 function Tpageprincipal.Render: TForm;
 begin
        Result := Self;
+
 end;
 
 procedure Tpageprincipal.UnRender;

@@ -6,8 +6,7 @@ uses
   delphitohero.view.styles.colors in 'view\styles\delphitohero.view.styles.colors.pas',
   delphitohero.view.pages.principal in 'view\pages\delphitohero.view.pages.principal.pas' {pageprincipal},
   delphitohero.view.pages.usuarios in 'view\pages\delphitohero.view.pages.usuarios.pas' {pagesusuarios},
-  delhiptohero.view.routers in 'view\Rooters\delhiptohero.view.routers.pas',
-  delphitohero.view.routers in 'view\Routers\delphitohero.view.routers.pas';
+  delphitohero.view.routers in 'view\routers\delphitohero.view.routers.pas';
 
 {$R *.res}
 
@@ -16,7 +15,5 @@ begin
   ReportMemoryLeaksOnShutdown := True;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TFormPrincipal, FormPrincipal);
-  Application.CreateForm(Tpageprincipal, pageprincipal);
-  Application.CreateForm(Tpagesusuarios, pagesusuarios);
   Application.Run;
 end.

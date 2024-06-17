@@ -40,6 +40,7 @@ object FormPrincipal: TFormPrincipal
         Height = 56
         Align = alTop
         Caption = 'Principal'
+        OnClick = SpeedButton2Click
       end
       object SpeedButton1: TSpeedButton
         Left = 0
@@ -47,6 +48,7 @@ object FormPrincipal: TFormPrincipal
         Width = 145
         Height = 66
         Caption = 'Usuarios'
+        OnClick = SpeedButton1Click
       end
       object Pnllogo: TPanel
         Left = 0

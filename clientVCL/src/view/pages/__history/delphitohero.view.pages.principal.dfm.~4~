@@ -1,0 +1,41 @@
+object pageprincipal: Tpageprincipal
+  Left = 0
+  Top = 0
+  Align = alClient
+  BorderStyle = bsNone
+  Caption = 'pageprincipal'
+  ClientHeight = 682
+  ClientWidth = 840
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -29
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 40
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 840
+    Height = 682
+    Align = alClient
+    BevelOuter = bvNone
+    Padding.Top = 35
+    ParentBackground = False
+    TabOrder = 0
+    ExplicitLeft = 72
+    ExplicitTop = -8
+    ExplicitWidth = 682
+    ExplicitHeight = 638
+    object P: TLabel
+      Left = 0
+      Top = 35
+      Width = 840
+      Height = 40
+      Align = alTop
+      Alignment = taCenter
+      Caption = 'Pagina Principal'
+      ExplicitWidth = 201
+    end
+  end
+end

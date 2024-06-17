@@ -1,0 +1,20 @@
+unit delphitohero.view.routers;
+
+interface
+type
+TRouters = class
+  private
+  public
+      constructor Create;
+      destructor  Destroy; override;
+
+
+  end;
+
+
+  var
+  Router : TRouters;
+
+implementation
+
+end.

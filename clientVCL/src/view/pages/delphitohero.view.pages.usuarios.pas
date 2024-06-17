@@ -19,7 +19,7 @@ uses
 
 type
   Tpagesusuarios = class(TForm,iRouter4DComponent)
-    Panel1: TPanel;
+    Pnl1: TPanel;
     P: TLabel;
   private
     { Private declarations }
@@ -34,6 +34,9 @@ var
 
 implementation
 
+uses
+  delphitohero.view.styles.colors;
+
 {$R *.dfm}
 
 { Tpagesusuarios }
@@ -41,6 +44,7 @@ implementation
 function Tpagesusuarios.Render: TForm;
 begin
     Result := Self;
+    //Panel1.Color := COLOR_BACKGROUND;
 end;
 
 procedure Tpagesusuarios.UnRender;
