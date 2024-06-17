@@ -112,6 +112,8 @@
             <Form>pagesusuarios</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="view\Rooters\delhiptohero.view.routers.pas"/>
+        <DCCReference Include="view\Routers\delphitohero.view.routers.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

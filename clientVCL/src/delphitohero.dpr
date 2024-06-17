@@ -5,7 +5,9 @@ uses
   Delphitohero.view.Main in 'view\Delphitohero.view.Main.pas' {FormPrincipal},
   delphitohero.view.styles.colors in 'view\styles\delphitohero.view.styles.colors.pas',
   delphitohero.view.pages.principal in 'view\pages\delphitohero.view.pages.principal.pas' {pageprincipal},
-  delphitohero.view.pages.usuarios in 'view\pages\delphitohero.view.pages.usuarios.pas' {pagesusuarios};
+  delphitohero.view.pages.usuarios in 'view\pages\delphitohero.view.pages.usuarios.pas' {pagesusuarios},
+  delhiptohero.view.routers in 'view\Rooters\delhiptohero.view.routers.pas',
+  delphitohero.view.routers in 'view\Routers\delphitohero.view.routers.pas';
 
 {$R *.res}
 
